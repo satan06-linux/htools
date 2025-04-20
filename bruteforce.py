@@ -1,6 +1,8 @@
-import itertools
-import string
-import time
+import itertools #pip install itertools #
+import string #pip install string #
+import time # pip install time #
+#or#
+from datetime import time ## optional ##
 
 def brute_force_crack(target_password, max_length):
     characters = string.ascii_lowercase + string.ascii_uppercase + string.digits  # You can add special characters if needed
